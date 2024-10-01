@@ -20,6 +20,8 @@ nav{
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
+    position: fixed;
+    z-index: 1;
 }
 nav #nav_part1{
     width:  15%;
@@ -49,7 +51,8 @@ nav #nav_part2 ul li{
     height: 80%;
     padding: 18px;
     list-style: none;
-    color: black;
+
+    color: rgb(57, 55, 55);
 font-family: 20px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
@@ -81,4 +84,129 @@ nav #nav_part3 button{
     color: white;
     font-size: 20px;
     
+}
+.hero{
+    width: 100%;
+    height: 200vh;
+    background-image: url(https://hogi.io/wp-content/themes/twentytwenty/assets/src/images/section-bg1.svg);
+}
+.hero .hero_part1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15vh;
+    flex-direction: column;
+}
+.hero .hero_part1 video{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 80px;
+}
+.hero .hero_part1 h6{
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 15px;
+}
+.hero .hero_part1 .overlay{
+    width: 90%;
+    height: 95%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 80px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.hero .hero_part1 .overlay h1{
+
+    font-size: 65px;
+    text-align: center;
+    text-transform : uppercase;
+    font-weight: 800;
+    font-family: sans-serif;
+    line-height: 65px;
+    letter-spacing: -5px;
+}
+
+.hero .hero_part1 .overlay p{
+    font-size: 20px;
+    text-align: center;
+    text-transform : uppercase;
+    font-weight: 800;
+    font-family: sans-serif;
+    line-height: 65px;
+}
+.hero .hero_part2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .hero_part2 .sturuture{
+    width: 80%;
+    height: 60%;
+    background-color: #D6D9E8;
+    border-radius: 200px; display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 120px;
+}
+.hero .hero_part2 .sturuture .sturuture_part1{
+    width: 50%;
+    height: 100%;
+ display: flex;
+    /* align-items: center; */
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.hero .hero_part2 .sturuture .sturuture_part1 h1{
+    font-size: 70px;
+ font-family: sans-serif;
+ line-height: 70px;
+}
+
+.hero .hero_part2 .sturuture .sturuture_part1 p{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 10px;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+
+.hero .hero_part2 .sturuture .sturuture_part1 span{
+    font-size: 30px;
+    color: #5129C2;
+    font-weight: 100;
+    padding-top: 10px;
+    font-family: sans-serif;
+    line-height: 30px;
+    
+}
+.hero .hero_part2 .sturuture .sturuture_part2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero .hero_part2 .sturuture .sturuture_part2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
