@@ -24,6 +24,19 @@ body,html{
 main{
     width: 100%;
 }
+.btnfix{
+    background:linear-gradient(to right , #5129C2, rgb(119, 119, 125));
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    font-size: 20px;
+    position: fixed;
+    right: -2.5%;
+    top: 50%;
+    rotate: -90deg;
+}
 nav{
     width: 100%;
     height: 15vh;
@@ -376,13 +389,21 @@ width: 400px;
     right: 0;
 }
 
-
-
-
 #services_top .right ul li i{
     font-size: 25px;
 }
 .services #services_down{
     width: 100%;
     height: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#services_down h1{
+  color: transparent;
+ font-size: 200px;
+ text-transform: uppercase;
+ height: 200px;
+-webkit-text-stroke: #52416F;
+-webkit-text-stroke-width: 3px;
 }
