@@ -407,3 +407,46 @@ width: 400px;
 -webkit-text-stroke: #52416F;
 -webkit-text-stroke-width: 3px;
 }
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animation{
+    width: 80%;
+    height: 50vh;
+    background-color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+.elm{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px;
+    
+    display: inline-block;
+    animation: scroll linear infinite 10s;
+}
+.photo{
+    width: 19.5%;
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+}
+.photo img{
+    width: 75%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
